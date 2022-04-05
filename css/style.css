@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Rubik&family=Source+Sans+Pro&display=swap');
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+.fondo {
+    width: auto;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4.5rem;
+}
+
+body {
+    background-color: #fff;
+    /* border: 3px solid #fff; */
+    background-image: url(../imgs/3d.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}   
+
+#titulo1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 35px;
+    color: #fff;
+    font-weight: unset;
+    font-family:'Open Sans', sans-serif, 'Poppins', sans-serif, 'Rubik', sans-serif, 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    margin: 1.25em;
+    margin-bottom: 1rem;
+    padding: 6px 2px;
+    border: 2px cover #fff;
+    border-radius: 2mm;
+    background-color: rgba(73, 179, 240, 0.705);
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    /* max-width: 5rem; */
+    /* max-height: 5rem; */
+    width: 10.5rem;
+    height: 10.5rem;
+    border: 2px solid #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* display: inline-flex; */
+    border: 2px cover #fff;
+    border-radius: 45px;
+    height: 30em;
+    width: 25em;
+    background-color: rgba(73, 179, 240, 0.705);
+    padding: 30px;
+    margin: 25px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email {
+    text-align: left;
+    margin: 15px 80px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 183px;
+    background-color: rgba(195, 189, 189, 0.9);
+    border: none;
+    border-radius: 5px;
+}
+
+.email::placeholder {
+    color: rgb(108, 107, 107);
+    font-weight: 500;
+    font-weight: bold;
+}
+.contraseña {
+    text-align: left;
+    margin: 15px 80px;
+    padding: 5px;
+    width: 183px;
+    background-color: rgba(195, 189, 189, 0.9);
+    border: none;
+    border-radius: 5px;
+}
+
+.contraseña::placeholder {
+    color: rgb(108, 107, 107);
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.button {
+    margin: 15px 80px;
+    padding: 5px;
+    width: 183px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: rgb(18, 31, 56);
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgb(49, 73, 117);
+    cursor: pointer;      
+}
+
